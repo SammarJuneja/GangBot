@@ -33,7 +33,7 @@ module.exports = {
                 let u = typeof smh; 
                 
                 if (u == "object") 
-                    smh = require('util').inspect(smh, { depth: 2 }); 
+                    smh = require('util').inspect(smh, { depth: 0 }); 
                 
                 t = t.replace(/`/g, `\`${String.fromCharCode(8203)}`).replace(/@/g, `\@${String.fromCharCode(8203)}`) 
                 
@@ -85,4 +85,3 @@ await interaction.reply({embeds: [err]});
         }
     } 
 }; 
-
