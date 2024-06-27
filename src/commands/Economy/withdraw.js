@@ -20,17 +20,6 @@ const user = await Usr.findOne({
    guildId: interaction.guild.id
 });
 
-if (!user) {
-   interaction.reply({
-     content: "You are not in a gang",
-     ephemeral: true
-   });
-}
-
-const gangCheck = await Gng.findOne({
-   _id: user.gangId
-});
-
 if (amount === "all") {
 if (user.wallet > 0) {
    await Usr.updateOne({
