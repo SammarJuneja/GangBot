@@ -23,5 +23,4 @@ client.handleCommands();
 client.handleEvents();
 client.handleComponents();
 
-client.login(process.env.TOKEN);
-console.log('RUNNING');
+client.login(process.env.TOKEN)
