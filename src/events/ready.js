@@ -1,5 +1,6 @@
 const { Events } = require('discord.js');
-const db = require("mongoose")
+const db = require("mongoose");
+require("dotenv").config();
 
 module.exports = {
 	name: Events.ClientReady,
@@ -12,5 +13,5 @@ module.exports = {
 };
 
 async function main() {
-    await db.connect("mongodb+srv://Wilson:7S8TNe6EeAjXfHGZ@cluster0.vdw53jb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
-    }
+    await db.connect(process.env.MONGO_URI);
+}

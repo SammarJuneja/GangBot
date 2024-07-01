@@ -1,7 +1,7 @@
 const isImageURL = require('image-url-validator').default;
 const db = require("mongoose");
-const Gng = require("/home/container/src/database/CreateGang.js");
-const Usr = require("/home/container/src/database/User.js");
+const Gng = require("../../database/CreateGang");
+const Usr = require("../../database/User");
                    
 module.exports = {
   data: {

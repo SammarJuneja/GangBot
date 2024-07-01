@@ -15,8 +15,8 @@ const owners = [
     "661566131383042078",
     "809154351951380520"
 ];
-const Gng = require("/home/container/src/database/CreateGang.js");
-const Usr = require("/home/container/src/database/User.js");
+const Gng = require("../../database/CreateGang");
+const Usr = require("../../database/User.js");
 
 module.exports = { 
     data: new SlashCommandBuilder()

@@ -1,6 +1,7 @@
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
+require("dotenv").config();
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -22,5 +23,5 @@ client.handleCommands();
 client.handleEvents();
 client.handleComponents();
 
-client.login('OTM2NzEwNjcxMDcxMDgwNTMw.GCmgeV.cyDgtjc6uYaEnPNvpE26EVdiNAhZDa5HCvVKwk');
+client.login(process.env.TOKEN);
 console.log('RUNNING');

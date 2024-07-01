@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
-const Gng = require("/home/container/src/database/CreateGang.js");
-const Usr = require("/home/container/src/database/User.js");
+const Gng = require("../../database/CreateGang");
+const Usr = require("../../database/User");
 
 module.exports = {
     data: new SlashCommandBuilder()

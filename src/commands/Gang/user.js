@@ -2,9 +2,9 @@ const {
     SlashCommandBuilder,
     EmbedBuilder
     } = require("discord.js");
-const Gng = require("/home/container/src/database/CreateGang.js");
-const Usr = require("/home/container/src/database/User.js");
-const Wpn = require("/home/container/src/database/Weapon.js");
+    const Gng = require("../../database/CreateGang");
+    const Usr = require("../../database/User");
+    const Wpn = require("../../database/Weapon.js");
 
 module.exports = {
     data: new SlashCommandBuilder()

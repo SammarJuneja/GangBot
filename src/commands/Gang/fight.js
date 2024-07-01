@@ -5,7 +5,8 @@ const {
     ActionRowBuilder,
     ButtonStyle
 } = require("discord.js");
-const Usr = require("/home/container/src/database/User.js");
+const Gng = require("../../database/CreateGang");
+const Usr = require("../../database/User");
 
 module.exports = {
     data: new SlashCommandBuilder()

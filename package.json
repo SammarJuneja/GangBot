@@ -1,5 +1,5 @@
 {
-  "name": "GangBot",
+  "name": "gangbot",
   "description": "This is GangBot for discord",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "@types/node": "^18.0.6",
     "child_process": "^1.0.2",
     "discord.js": "^14.11.0",
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "image-url-validator": "^1.0.4",
@@ -25,5 +26,5 @@
   },
   "devDependencies": {
     "node": "^17.9.1"
-  },
+  }
 }

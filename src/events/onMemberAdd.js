@@ -1,6 +1,6 @@
 const { Events } = require('discord.js');
-const Usr = require("/home/container/src/database/User.js");
-const Wpn = require("/home/container/src/database/Weapon.js");
+const Gng = require("../database/CreateGang");
+const Usr = require("../database/User");
 
 module.exports = {
 	name: Events.GuildMemberAdd,

@@ -6,7 +6,7 @@ const {
      TextInputBuilder,
      TextInputStyle
 } = require("discord.js");
-const Gng = require("/home/container/src/database/CreateGang.js");
+const Gng = require("../../database/CreateGang");
 
 module.exports = {
     data: new SlashCommandBuilder()
