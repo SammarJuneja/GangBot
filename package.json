@@ -1,5 +1,6 @@
 {
-  "name": "nodejs",
+  "name": "GangBot",
+  "description": "This is GangBot for discord",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -25,5 +26,4 @@
   "devDependencies": {
     "node": "^17.9.1"
   },
-  "description": ""
 }
